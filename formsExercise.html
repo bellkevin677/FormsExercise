@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+</head>
+<body>
+    <h1>Customer Experience Survey</h1>
+    <form>
+        <label>
+            Store Number
+            <select>
+                <option>3109</option>
+                <option>2421</option>
+                <option>5357</option>
+            </select>
+        </label>
+        <br>
+        <fieldset>
+            <legend>When you visited</legend>
+            <label>Date Visited</label>
+            <input type="date" name="" id="" min="2021-01-01" max="2021-12-31" required>
+            <label>Time</label>
+            <input type="time" name="" id="" required>
+        </fieldset>
+        <label>First Name:</label>
+        <input type="text" placeholder="John" required>
+        <label>Last Name:</label>
+        <input type="text" placeholder="Doe" required>
+        <br>
+        <label>Email:</label>
+        <input type="email" placeholder="your email" required>
+        <br>
+        <label for="male">Male</label>
+        <input type="radio" name="radioLink" id="male" required>
+        <label for="female">Female</label>
+        <input type="radio" name="radioLink" id="female" checked>
+        <label for="other">Other</label>
+        <input type="radio" name="radioLink" id="other">
+        <br>
+        <label>Tell us about your experience:</label>
+        <br>
+        <textarea name="" id="" cols="20" rows="3"></textarea>
+        <br>
+        <label>Times visted in the last month:</label>
+        <input type="number" name="" id="" min="1" Max="30">
+        <br>
+        <label>Please check the box if you would be willing to be contacted aobut your experience</label>
+        <input type="checkbox" required>
+        <br>
+        <label for="">Password</label>
+        <input type="password" name="" id="" minlength="5" maxlength="10" placeholder="Your Password" required>
+        <br>
+        <input type="reset">
+        <input type="submit">
+        
+    </form>
+</body>
+</html>
